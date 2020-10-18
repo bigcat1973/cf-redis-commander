@@ -19,7 +19,7 @@ cd cf-redis-commander
 Remember to install [cf cli](https://github.com/cloudfoundry/cli/releases) and then get an account from [Pivotal Web Services](http://run.pivotal.io/).
 
 2) Modify the binding service name in manifest file
-    replace string 'ss-redis-new' with your service name in manifest file
+    ( replace string 'ss-redis-new' with your service name in manifest file )
 
 3) SSL is enable by default. To turn off SSL, you can change value of SSL to false in manifest file
 
