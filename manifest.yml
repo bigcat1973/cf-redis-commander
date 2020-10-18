@@ -1,9 +1,10 @@
 ---
 applications:
-- name: cf-redis-commander
+- name: cf-redis-commander-SSL
   memory: 256M
   instances: 1
-  host: cf-redis-commander
+  host: cf-redis-commander-SSL
   services:
-    - datasync-datastore-redis-data
-    
+    - ss-redis-new
+  env:
+    SSL: true
